@@ -2,10 +2,11 @@
 
 ![UI](https://github.com/samukallio/tracking/blob/main/media/screenshot.png?raw=true)
 
-This repository contains my B.Sc. thesis on sensor fusion titled "Orientation Tracking with Non-Linear Kalman Filters" that I wrote in spring 2018. It includes:
-* Source code for the implemented algorithms,
+This repository contains:
+* My Bachelor's thesis on sensor fusion titled "Orientation Tracking with Non-Linear Kalman Filters" that I wrote in spring 2018,
+* A Python implementation of the orientation tracking algorithms described in the thesis,
 * Firmware designed to run on a sensor board comprised of an ESP8266 microcontroller and an MPU-9025 MEMS IMU,
-* A GUI program (see the screenshot) that communicates with the sensor board, computes the orientation estimate, and visualizes the result.
+* A Python GUI program (see the screenshot) that communicates with the sensor board, computes the orientation estimate, and visualizes the result.
 
 ## Overview
 
