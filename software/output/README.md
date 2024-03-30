@@ -1,0 +1,1 @@
+Recorded data is placed in this directory.
