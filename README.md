@@ -18,5 +18,5 @@ On the other hand, the gyroscope produces a relatively accurate and disturbance-
 
 The idea behind sensor fusion is to combine the strengths of both types of sensors to avoid the weaknesses of either. The gyroscope provides good short-term accuracy, and the accelerometer and the magnetometer provide long-term accuracy by providing a stable reference that can be used to cancel the gyroscopic drift. Many algorithms exist for sensor fusion in general, and for orientation tracking in particular. The algorithms studied in my thesis, are:
 
-* The Multiplicative Extended Kalman Filter (MEKF), a quaternion-based esimator that uses an Extended Kalman Filter (EKF) to track the error between a nominal quaternion (current orientation estimate) and the actual orientation.
-* The Vector Kalman Filter (VKF), an original result that estimates the gravity and magnetic field direction using separate (ordinary) Kalman filters and uses these filtered direction vectors to compute the orientation estimate.
+* The _Multiplicative Extended Kalman Filter_ (MEKF), a quaternion-based esimator that uses an Extended Kalman Filter (EKF) to track the error between a nominal quaternion (current orientation estimate) and the actual orientation.
+* The _Vector Kalman Filter_ (VKF), an original result that estimates the gravity and magnetic field directions separately using linear Kalman filters and uses these filtered vectors to compute the orientation estimate.
